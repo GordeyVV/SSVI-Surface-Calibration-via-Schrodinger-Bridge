@@ -89,7 +89,7 @@ The Schrödinger bridge finds the most likely path distribution:
 $$\min_P \text{KL}(P \| R) \quad \text{subject to} \quad P_0 = \mu_0, \quad P_T = \mu_T$$
 
 **Connection to HJB Equation:**
-$$ \frac{\partial V}{\partial t} = \min_{\mathbf{u}} \left\lbrace L(\mathbf{x}, \mathbf{u}, t) + \nabla V \cdot \mathbf{f}(\mathbf{x}, \mathbf{u}, t) + \frac{1}{2}\text{tr}\left(GG^T \nabla^2 V\right) \right\rbrace $$
+$$ \frac{\partial V}{\partial t} = \min_{\mathbf{u}} \biggl\{ L(\mathbf{x}, \mathbf{u}, t) + \nabla V \cdot \mathbf{f}(\mathbf{x}, \mathbf{u}, t) + \frac{1}{2}\text{tr}\bigl(GG^T \nabla^2 V\bigr) \biggr\} $$
 
 ### 1.3 Gibbs Field Interpretation
 
